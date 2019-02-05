@@ -20,7 +20,7 @@ class p10
 			cin.getline(name,20);
 			cout<<name;  
 		}
-		show_setprecision()
+		void show_setprecision()
 		{
 			cin>>num1;
 			cout<<setprecision(5)<<num1;
