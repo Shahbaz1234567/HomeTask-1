@@ -24,8 +24,10 @@ class two
 		}	
 };
 main()
-{
+{	
 	one o; //object of class one
+	two t;//object of class two
+
 	t.show(o);
 	/*calling of member
 	 function of class two with passing parameter object of one*/	
