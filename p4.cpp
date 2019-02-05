@@ -1,3 +1,4 @@
+/*WAP to access private info of bank to iutside world*/
 #include<iostream>
 using namespace std;
 class bank
