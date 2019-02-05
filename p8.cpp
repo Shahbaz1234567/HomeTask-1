@@ -1,5 +1,6 @@
 /*WAP to the info of ten students without declaring
- no of individual objects and by defining member function outside the class */
+ no of individual objects and by defining member
+  function outside the class */
 #include<iostream>
 using namespace std;
 class p8
@@ -13,13 +14,13 @@ class p8
 };
 void p8::get()
 {
-	cout<<endl<<"Enter Name ";
+	cout<<endl<<"Enter Name: ";
 	cin>>name;	
-	cout<<"Roll Number ";
+	cout<<"Roll Number: ";
 	cin>>roll;	
-	cout<<"Rank ";
+	cout<<"Rank: ";
 	cin>>rank;
-	cout<<"Enter CGPA ";
+	cout<<"Enter CGPA: ";
 	cin>>cgpa;
 }
 void p8::show()
