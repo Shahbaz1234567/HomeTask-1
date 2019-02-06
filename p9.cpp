@@ -2,8 +2,16 @@
 using namespace std;
 class p9
 {
+	float b,h,ar;
 	public :
 		void table(int x);
+		void triangle()
+		{
+			cout<<"Enter base and height of triangle"<<endl;
+			cin>>b>>h;
+			ar=0.5*b*h;
+			cout<<"\n Area = "<<ar;
+		}
 };
 inline void p9::table(int x)
 {
@@ -19,4 +27,5 @@ main()
 	cout<<"Enter number to calculate its table";
 	cin>>n;
 	o.table(n);	
+	o.triangle();
 }
